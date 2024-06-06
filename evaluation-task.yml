@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: evaluation-task
+  session:
+    store-type: redis
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/evaluation
